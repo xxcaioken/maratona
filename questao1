@@ -1,0 +1,62 @@
+print ("31 -41 59 26 -53 58 97 -93 -23 84")
+print("------------------------------")
+
+maiorV = 31
+sub = "31"
+
+soma1 = 31 -41
+
+if soma1 > maiorV:
+maiorV = soma1
+sub = "31 -41"
+
+soma2 = 31 -41 +59
+
+if soma2 > maiorV:
+maiorV = soma2
+sub = "31 -41 59"
+
+soma3 = 31 -41 +59 +26
+
+if soma3 > maiorV:
+maiorV = soma3
+sub = "31 -41 59 26"
+
+soma4 = 31 -41 +59 +26 -53
+
+if soma4 > maiorV:
+maiorV = soma4
+sub = "31 -41 59 26 -53"
+
+soma5 = 31 -41 +59 +26 -53 +58
+
+if soma5 > maiorV:
+maiorV = soma5
+sub = "31 -41 59 26 -53 58"
+
+soma6 = 31 -41 +59 +26 -53 +58 +97
+
+if soma6 > maiorV:
+maiorV = soma6
+sub = "31 -41 59 26 -53 58 97"
+
+soma7 = 31 -41 +59 +26 -53 +58 +97 -93
+
+if soma7 > maiorV:
+maiorV = soma7
+sub = "31 -41 59 26 -53 58 97 -93"
+
+soma8 = 31 -41 +59 +26 -53 +58 +97 -93 -23
+
+if soma8 > maiorV:
+maiorV = soma8
+sub = "31 -41 59 26 -53 58 97 -93 -23"
+
+soma9 = 31 -41 +59 +26 -53 +58 +97 -93 -23 +84
+
+if soma9 > maiorV:
+maiorV = soma9
+sub = "31 -41 59 26 -53 58 97 -93 -23 84"
+
+print ("A maior soma dos sub-vetores é de:",maiorV)
+print ("Correspondete ao sub-vetor de valores:", sub)
