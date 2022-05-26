@@ -1,0 +1,15 @@
+ins = int(input("instancias"))
+cont = 0
+cont1 = 0
+while ins > 0:
+n = input('aaa')
+if n > 1:
+lista = []
+
+cont += 1
+cont1 = n
+lista = lista + n
+ins -= 1
+
+lista_ordenada = sorted(lista)
+print(lista)
